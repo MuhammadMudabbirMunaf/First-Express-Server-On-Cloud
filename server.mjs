@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
   console.log("request ip: ", req.ip)
 
-  res.send('Hello World!' + new Date().toString());
+  res.send('Hello World! Time is very precious TY' + new Date().toString());
 })
 
 app.listen(port, () => {
